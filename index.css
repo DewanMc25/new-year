@@ -1,0 +1,383 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+header{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image:url(resources/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.sub-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 150px;
+}
+.main-title{
+width: 632px;
+color: #FFF;
+text-align: center;
+margin: 0px auto;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+}
+/*Main-Section*/
+/*Discount-Section*/
+.discount{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
+.discount-sub-title{
+ color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: -30px;
+}
+.categories{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: -10px;
+}
+.new-year-image{
+width: 802.9px;
+height: 500px;
+margin-left: 25%;
+}
+.party-section{
+    width: 1320px;
+    margin: 0 auto;
+    height: 600px;
+    background-image:url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 70px;
+}
+.party-image{
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);    
+}
+.party-main-title{
+color: #FFF;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+width: 642px;
+padding-top: 120px;
+padding-left: 140px;
+}
+.party-desc{
+width: 697px;
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+padding-left: 140px;
+line-height: 30px;
+}
+.btn-join{
+    background: none;
+    border: none;
+}
+.btn-join a{
+text-decoration: none;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+padding-left: 155px;
+text-transform: uppercase;
+}
+.adress-section{
+    width: 1320px;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.adress-desc{
+    padding-top: 110px;
+}
+.adress{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+text-align: center;
+line-height: 0;
+padding-top: 20px;
+}
+.adress-color{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.adress-join-button{
+border-radius: 8px;
+background: #F00;
+padding: 16px 32px;
+color: rgb(255, 255, 255);
+margin-left: 45%;
+border: none;
+margin-top: 20px;
+font-weight: 900;
+font-size: 20px;
+}
+.comming-soon{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.sub-title-offer{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.main-title-year{
+color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.comming-desc{
+width: 393px;
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.ellips-img{
+width: 364.844px;
+height: 364.844px;
+border-radius: 463px;
+border: 15px solid #F00;
+padding: 20px;
+}
+.group1{
+width: 140px;
+height: 140px;
+}
+.holiday-sub-title{
+color: #070211;
+font-family: Inter;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-span{
+color: #F00;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-title{
+    color: #070211;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 0;
+   padding-top: 20px;
+}
+.holiday-desc{
+width: 1068px;
+color: rgba(7, 2, 17, 0.60);
+margin: 0 auto;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+.holiday-main-section{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.gift{
+    margin-bottom: -180px;
+    width: 50%;
+}
+.girl{
+padding-left: 227px;
+margin-bottom: -4px;
+position: relative;
+}
+.red-footer-image{
+   background-image: url(resources/Rectangle.png);
+   height: 229px;
+   margin-bottom: 100px;
+}
+.dis{
+    right: 25%;
+    margin-top: 70px;
+    position: absolute;
+}
+.product-section{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10%;
+}
+.pim{
+    width: 400px;
+    padding: 10px;
+    opacity: 0.8;
+}
+.pim:hover{
+    transition: 1s;
+    opacity: 1;
+}
+.subcribe{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 43%;
+    margin-bottom: 10%;
+    height: 616px;
+    border-radius: 50px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.input-box{
+    margin-left: 25%;
+}
+.email-box{
+ width: 500px;
+height: 75px;
+border: none;
+font-size: 25px;
+padding-left: 30px;
+border-radius: 50px 0px 0px 50px;
+outline: none;
+}
+.submit-box{
+width: 160px;
+height: 77px;
+font-size: 30px;
+border: none;
+background: #F00;
+color: #FFF;
+margin-left: -5px;
+border-radius: 0px 50px 50px 0px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+}
+.email-box{
+    border: none;
+}
+footer{
+    height: 609px;
+    background: #070211;
+}
+
+.footer-sec {
+    background: #070211;
+    width: 100%;
+    margin-top: 113px;
+}
+
+.footer-main {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item {
+    color: white;
+    margin: 0px 0px;
+}
+
+.footer-right ul li {
+    list-style: none;
+    font-family: 'Inter';
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+}
+
+.footer-image {
+    top: 7px;
+    position: relative;
+    right: 10px;
+}
+
+.footer-right {
+    margin: 88px 0px;
+}
+
+.footer-left p {
+    width: 251px;
+    height: 80px;
+    font-family: 'Inter';
+    text-align: left;
+    margin: 91px 0;
+    position: relative;
+    right: 224px;
+}
+.hr {
+    position: relative;
+    bottom: 100px;
+    margin-top: 100px;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 44px;
+}
+.spl img {
+    margin-left: 24px;
+}
+.cp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #FFF;
+    font-family: 'Inter';
+}
+.cp a{
+    text-decoration: none;
+    color: white;
+}
